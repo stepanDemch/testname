@@ -2,9 +2,7 @@
 
 import discord
 from discord.ext import commands
-from discord import utils
 from discord.utils import get
-import os
 #переменные
 bad =["блять", "Блять", "БЛЯТЬ", "блядь", "Блядь", "БЛЯДЬ", "хуй", "Хуй", "ХУЙ","пидорас", "Пидорас", "ПИДОРАС", "нахуй", "Нахуй", "НАХУЙ", "пизда", "Пизда", "ПИЗДА", "пизду", "Пизду", "ПИЗДУ", "ебать", "Ебать", "ЕБАТЬ"]
 client = commands.Bot(command_prefix='#')
